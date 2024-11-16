@@ -1,5 +1,6 @@
 // Importar librerías necesarias
 const WebSocket = require('ws');
+const port = process.env.PORT || 8080;
 
 // Crear un servidor WebSocket
 const wss = new WebSocket.Server({ port: 8080 });
